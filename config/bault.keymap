@@ -18,6 +18,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tab-on-bottom-right-two {
+            bindings = <&kp TAB>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
